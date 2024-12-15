@@ -29,7 +29,7 @@
         }
         figure {
             margin: 10px; /* 图片和注释的外边距 */
-            max-width: 300px; /* 图片的最大宽度 */
+            max-width: 500px; /* 图片的最大宽度 */
         }
         figure img {
             width: 100%; /* 图片宽度占满容器 */
