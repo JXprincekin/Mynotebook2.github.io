@@ -21,3 +21,21 @@
         border-radius: 30px;
     }
 
+
+        .figures-container {
+            display: flex; /* 使用Flexbox布局 */
+            justify-content: space-around; /* 图片之间的间距 */
+            flex-wrap: wrap; /* 如果一行放不下，自动换行 */
+        }
+        figure {
+            margin: 10px; /* 图片和注释的外边距 */
+            max-width: 500px; /* 图片的最大宽度 */
+        }
+        figure img {
+            width: 100%; /* 图片宽度占满容器 */
+            height: auto; /* 保持图片比例 */
+        }
+        figcaption {
+            text-align: center; /* 注释文本居中 */
+        }
+
